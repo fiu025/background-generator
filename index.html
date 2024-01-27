@@ -1,5 +1,14 @@
-<html> <head> <title>Updated Login
-    <link rel="stylesheet" type="text/css" href="style.css">
-</title> 
+<html> <head> <title>Login</title> <style> body { background-color: #e6f2ff; }
+    .login-box { width: 300px; margin: 0 auto; padding: 30px; background-color: white; color: black; margin-top: 100px; }
+    
+    .login-box h1 { text-align: center; margin-bottom: 30px; }
+    
+    .login-box input[type="text"], .login-box input[type="password"] { width: 100%; padding: 10px; margin-bottom: 20px; }
+    
+    .login-box input[type="submit"] { width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; }
+    
+    .login-box a { text-decoration: none; color: #007bff; }
+    
+    .login-box a:hover { text-decoration: underline; } </style>
     
     </head> <body> <div class="login-box"> <h1>Login</h1> <form action="/login" method="post"> <input type="text" name="username" placeholder="Username" required> <input type="password" name="password" placeholder="Password" required> <input type="submit" value="Login"> </form> <p>Forgot your password? <a href="/password-recovery">Click here to reset it</a>.</p> </div> </body> </html>
